@@ -8,7 +8,7 @@ let newTask = template.querySelector('.todo-list-item');
 let message = document.querySelector('.empty-tasks-message');
 
 let toggleEmtptyListMessage = function () {
-    if (tasks.length === 1) {
+    if (tasks.length === 0) {
         message.classList.remove('hidden');
     } else {
         message.classList.add('hidden');
