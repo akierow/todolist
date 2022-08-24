@@ -1,0 +1,7 @@
+.hidden {
+    display: none;
+}
+
+:placeholder-shown {
+    font-style: italic;
+}
